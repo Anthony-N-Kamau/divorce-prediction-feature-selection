@@ -1,0 +1,6 @@
+"0","# logistic regression
+summary(glm(Divorce ~ Q1 + Q16 + Q18 + Q19 + Q26 + Q28, data = divorce_linreg, family = ""logit""))
+"
+"2","Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'object' in selecting a method for function 'summary': object 'logit' of mode 'function' was not found
+"

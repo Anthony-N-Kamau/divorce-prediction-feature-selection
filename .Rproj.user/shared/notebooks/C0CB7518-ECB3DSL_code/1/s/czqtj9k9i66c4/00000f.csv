@@ -1,0 +1,30 @@
+"0","library(likert)"
+"2","Loading required package: xtable
+"
+"2","
+Attaching package: ‘likert’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    recode
+
+"
+"0","library(ggplot2)"
+"0","library(xtable)"
+"0","library(magrittr)"
+"0",""
+"0",""
+"0","divorce_likert <- divorce_categorical[,c(6,47,49)] %>% as.data.frame()"
+"0","divorce_likert2 <- divorce_categorical[,-c(55,56,57)] %>% as.data.frame()"
+"0",""
+"0","headings <- c(""Q6, Time Constraints "","
+"0","              ""Q47, Silent Anger"","
+"0","              ""Q49, Unfounded Accusations"")"
+"0",""
+"0","headings2 <- c(paste0(""Q"", 1:54))"
+"0",""
+"0","names(divorce_likert) <- headings"
+"0","names(divorce_likert2) <- headings2"
+"0",""
+"0","likert(divorce_likert) %>% plot(type = ""bar"", legend.position = ""right"")"

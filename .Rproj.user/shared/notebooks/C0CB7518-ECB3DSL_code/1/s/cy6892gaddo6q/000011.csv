@@ -1,0 +1,7 @@
+"0",""
+"0",""
+"0","ggplot(Divorce_frequency, aes(Divorce, Frequency)) + "
+"0","  geom_bar(stat=""identity"", position = position_dodge(), fill = c(""red"", ""blue"") ) + "
+"0","  geom_text(aes(label=Percentage), vjust=1.6, color=""white"","
+"0","            position = position_dodge(0.9),  size=3.5) +"
+"0","  scale_fill_manual(values = c(""red"", ""blue"")) + theme_classic()"

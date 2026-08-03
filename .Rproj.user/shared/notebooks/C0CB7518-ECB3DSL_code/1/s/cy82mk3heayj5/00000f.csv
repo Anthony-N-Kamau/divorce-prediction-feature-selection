@@ -1,0 +1,5 @@
+"0","divorce_likert <- divorce_categorical[,c(6,17,26,40,52)] %>% as.data.frame()
+"
+"2","Error in divorce_categorical[, c(6, 17, 26, 40, 52)] %>% as.data.frame() : 
+  could not find function ""%>%""
+"

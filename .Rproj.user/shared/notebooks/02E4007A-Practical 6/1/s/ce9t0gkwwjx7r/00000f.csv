@@ -1,0 +1,2 @@
+"0","set.seed(100)"
+"0","my_diamonds <- diamonds %>% slice_sample(n = 500)"

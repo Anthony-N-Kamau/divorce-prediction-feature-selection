@@ -1,0 +1,1 @@
+{"frames":[],"message":"Error in ggplot(Divorce_frequency, aes(Divorce, Frequency)) : \n  could not find function \"ggplot\"\n"}
