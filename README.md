@@ -68,8 +68,8 @@ install.packages(c(
 
 ## How to run
 
-1. Place `divorce.csv` in the same directory as `ECB3DSL_code.Rmd`.
-2. Open `ECB3DSL_code.Rmd` in RStudio.
+1. Download the zip containing all the files and open `ECB3DSL.Rproj`.
+2. Open `ECB3DSL_code.Rmd` in the project.
 3. Run the chunks in order — each section (logistic regression, correlation plot, PCA, Lasso, Random Forest, backward selection, descriptive analysis, visualizations) is self-contained but some later chunks (e.g. Random Forest) reuse data objects created earlier in the file, so running top to bottom is recommended.
 
 
