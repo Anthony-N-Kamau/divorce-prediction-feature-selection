@@ -75,16 +75,7 @@ install.packages(c(
 2. Open `ECB3DSL_code.Rmd` in RStudio.
 3. Run the chunks in order — each section (logistic regression, correlation plot, PCA, Lasso, Random Forest, backward selection, descriptive analysis, visualizations) is self-contained but some later chunks (e.g. Random Forest) reuse data objects created earlier in the file, so running top to bottom is recommended.
 
-## Limitations
 
-- The dataset may not capture the full range of variables influencing marital outcomes, and results may not generalize across demographic or cultural contexts.
-- High multicollinearity among variables makes causal interpretation difficult.
-- Findings are based on a single cultural context (Turkey) and cross-sectional data; longitudinal validation is needed.
 
-## Disclosure
 
-Generative AI (ChatGPT) was used during this project to support clear and engaging communication throughout the write-up.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
