@@ -1,8 +1,5 @@
 # What Is the Minimum Number of Variables Needed to Predict Divorce?
 
-**Course:** Data Science Lab for Economists (ECB3DSL), Utrecht University School of Economics
-**Academic year:** 2023/2024
-
 ## Project overview
 
 Marriage counselling questionnaires are often long, which slows down the assessment process for therapists and clients. This project asks a simple question: how few variables do we actually need to predict whether a couple has a high probability of divorce?
